@@ -1,11 +1,11 @@
 import React from 'react';
-import Grid from '@mui/material/Grid';
+// import Grid from '@mui/material/Grid';
 // import './App.css';
-import './style.css';
-import One from './1.png';
-import Two from './2.png';
-import Three from './3.2.png';
-import Four from './4.png';
+import '../styles/style.css';
+import One from "../assets/1.png";
+import Two from "../assets/2.png";
+import Three from "../assets/3.2.png";
+import Four from "../assets/4.png";
 function App() {
   return (
     <div className="main">

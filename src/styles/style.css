@@ -69,21 +69,21 @@ h2 {
 }
 .two {
   /* background: url('./2.png') center/cover no-repeat; */
-  background: url('./2.png') center/cover no-repeat;
+  background: url('../assets/2.png') center/cover no-repeat;
   height: 100%;
   width: 100%;
   background-size: cover;
 }
 .three {
   /* background: url('./3.2.png') center/cover no-repeat; */
-  background: url('./3.2.png') center/cover no-repeat;
+  background: url('../assets/3.2.png') center/cover no-repeat;
   height: 100%;
   width: 100%;
   background-size: cover;
 }
 .four {
   /* background: url('./4.png') center/cover no-repeat; */
-  background: url('./4.png') center/cover no-repeat;
+  background: url('../assets/4.png') center/cover no-repeat;
   height: 100%;
   width: 100%;
   background-size: cover;
