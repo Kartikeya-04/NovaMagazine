@@ -1,19 +1,21 @@
 import React from 'react';
 // import Grid from '@mui/material/Grid';
-// import './App.css';
+// import '../styles/App.css';
 import '../styles/style.css';
-import One from "../assets/1.png";
-import Two from "../assets/2.png";
-import Three from "../assets/3.2.png";
-import Four from "../assets/4.png";
+import One from '../assets/1.png';
+import Two from '../assets/2.png';
+import Three from '../assets/3.2.png';
+import Four from '../assets/4.png';
 function App() {
   return (
-    <div className="main">
+    <div className="main" style={{ background: 'black' }}>
       <div>
-        <h1>NOVA MAGAZINE</h1>
+        <h1 className="header text-with-shadow" style={{ color: '#535C91' }}>
+          NOVA MAGAZINE
+        </h1>
       </div>
 
-      <div className="main2">
+      <div className="main2" style={{ background: 'black' }}>
         <div className="border">
           <div className="title">
             <h2>Featured Magazines</h2>
@@ -21,16 +23,16 @@ function App() {
           <div className="title2">
             <div className="hero">
               <div className="one">
-                <img src={One} />
+                <img src={One} className="vibration" />
               </div>
               <div className="two">
-                <img src={Two} />
+                <img src={Two} className="vibration" />
               </div>
               <div className="three">
-                <img src={Three} />
+                <img src={Three} className="vibration" />
               </div>
               <div className="four">
-                <img src={Four} />
+                <img src={Four} className="vibration" />
               </div>
             </div>
           </div>

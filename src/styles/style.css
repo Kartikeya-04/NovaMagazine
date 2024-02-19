@@ -19,7 +19,7 @@ body {
   /* width: 100%; */
   width: auto;
   flex-direction: column;
-  background-color: rgba(47, 49, 54, 1);
+  background-color: black;
   padding: 2rem;
   box-sizing: border-box;
 }
@@ -58,7 +58,7 @@ h2 {
 
 .hero div {
   cursor: pointer;
-  border: 1.2px solid rgb(217, 201, 108);
+  border: 1.2px solid white;
   box-sizing: border-box;
 }
 .one {
@@ -89,7 +89,7 @@ h2 {
   background-size: cover;
 }
 .hero div:hover {
-  box-shadow: 2px 3.5px 2px 4px rgb(217, 201, 108);
+  box-shadow: 2px 3.5px 2px 4px white;
 }
 
 /* Media Query for larger screens */
@@ -110,5 +110,16 @@ h2 {
 
   .hero {
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    /* gap: 6rem; */
   }
+}
+/* @media (min-width: 200px) and (max-width: 900px) {
+  .hero {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6rem;
+  }
+} */
+.text-with-shadow {
+  text-shadow: 2px 2px 4px white;
 }
